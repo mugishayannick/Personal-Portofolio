@@ -10,7 +10,7 @@
 }
 
 .left {
-  color: #ffffff;
+  color: #fff;
   padding: 15px 150px;
 }
 
@@ -20,13 +20,12 @@
 }
 
 .right a {
-  color: #ffffff;
+  color: #fff;
   padding: 10px;
   text-decoration: none;  
 }
-
 .right i {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -36,7 +35,7 @@
   grid-auto-rows: 1fr;
   border: 1px solid green;
   padding: 250px 60px;
-  color: #ffffff;
+  color: #fff;
   background-color: black;
 }
 
@@ -59,8 +58,4 @@
   margin-top: 10px;
   line-height: 19px;
 }
-
- 
   
-  
-
