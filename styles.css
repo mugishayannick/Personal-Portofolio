@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+.top-nav {
+  background-color: #1C1A19;
+  display: flex;
+  justify-content: space-between;
+    
+
+}  
+.left {
+  color: #FFFFFF;
+  padding: 15px 150px;
+  font-family: 'Inter';
+  font-style: normal;
+
+} 
+.right {
+    padding: 15px 150px;
+    line-height: 20px;
+}
+.right a{
+  color: #FFFFFF;
+  padding: 10px;
+  text-decoration: none;
+  
+  
+    
+} 
+.right i{
+  color: #FFFFFF;
+  text-decoration: none;
+  
+}
+.main {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  padding: 100px;
+  background-color: black;
+  color: white;
+  
+  
+}
