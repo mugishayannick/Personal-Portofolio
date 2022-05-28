@@ -3,8 +3,7 @@
   padding: 0;
 }
 body {
-  background-color: #191765;
-  
+  background-color: #191765;  
 }
 
 .top-nav {
@@ -25,9 +24,6 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
-}
-.right {
-  
 }
 .main {
   display: flex;
