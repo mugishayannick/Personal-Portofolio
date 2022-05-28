@@ -19,10 +19,7 @@ body {
   font-weight: 500;
   font-size: 18px;
   line-height: 16px;
-  padding: 20px 50px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  padding: 20px 20px;
   letter-spacing: 0.03em;
   color: #ffffff;
   flex: none;
@@ -53,8 +50,12 @@ body {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 40px;
   line-height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   letter-spacing: 0.37px;
   color: #7d73fc;
 }
@@ -67,6 +68,9 @@ body {
   font-size: 32px;
   line-height: 44px;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   color: #edecff;
 }
 .middle p {
@@ -77,6 +81,10 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   color: #c8c8d4;
 }
 .img {
