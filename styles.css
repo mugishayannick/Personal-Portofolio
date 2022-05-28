@@ -2,59 +2,97 @@
   margin: 0;
   padding: 0;
 }
+body {
+  background-color: #191765;
+  
+}
 
 .top-nav {
-  background-color: #1c1a19;
   display: flex;
   justify-content: space-between;
 }
-
 .left {
-  color: #fff;
-  padding: 15px 150px;
+  width: 100px;
+  height: 16px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 16px;
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
-
 .right {
-  padding: 15px 150px;
-  line-height: 20px;
+  
 }
-
-.right a {
-  color: #fff;
-  padding: 10px;
-  text-decoration: none;
-}
-.right i {
-  color: #fff;
-  text-decoration: none;
-}
-
 .main {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 1fr;
-  border: 1px solid green;
-  padding: 250px 60px;
-  color: #fff;
-  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
 }
-
-.left-side ul li {
-  list-style-type: none;
+.left-side {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  left: -350px;
+  top: 0px;
+  background: #edecff;
+  filter: blur(50px);
 }
-
 .middle h1 {
-  margin-top: 10px;
-  width: 60%;
-  font-size: 50px;
-  color: #f55800;
+  width: 327px;
+  height: 55px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: 0.37px;
+  color: #7d73fc;
 }
-
 .middle h3 {
-  font-size: 20px;
+  width: 327px;
+  height: 87px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  color: #edecff;
 }
-
 .middle p {
-  margin-top: 10px;
-  line-height: 19px;
+  width: 327px;
+  height: 170px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #c8c8d4;
+}
+.img {
+  position: absolute;
+  height: 0px;
+  left: 0px;
+  right: 0px;
+  top: calc(50% - 0px/2 + 0.5px);
+  border: 1px solid #646369;
+}
+.right-side {
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  left: 339px;
+  top: 495px;
+  background: #edecff;
+  filter: blur(120px);
 }
