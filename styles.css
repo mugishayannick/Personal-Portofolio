@@ -4,13 +4,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background-color: #191765;  
   width: 100vw;
   height: 100vh;
 }
 
-.header{
+.header {
   width: 100%;
   height: max-content;
   display: flex;
@@ -19,18 +20,18 @@ body {
   padding: 20px 30px;
 }
 
-.nav-links{
+.nav-links {
   display: none;
 }
 
-.logo{
+.logo {
   text-decoration: none;
   color: #fff;
   text-transform: capitalize;
   font-size: 20px;
 }
 
-.fa-bars{
+.fa-bars {
   color: #fff;
   font-size: 20px;
 }
@@ -45,7 +46,7 @@ body {
   justify-content: center;
 }
 
-.main-intro{
+.main-intro {
   width: 80%;
   display: grid;
   place-items: center;
@@ -62,6 +63,7 @@ body {
   color: #7d73fc;
   margin-bottom: 30px;
 }
+
 .main-intro h3 {
   width: max-content;
   font-family: 'Roboto';
@@ -71,6 +73,7 @@ body {
   color: #edecff;
   margin-bottom: 30px;
 }
+
 .main-intro p {
   width: 90%;
   height: max-content;
@@ -83,8 +86,7 @@ body {
   color: #c8c8d4;
 }
 
-
-.section-experience{
+.section-experience {
   margin-top: 50px;
   width: 100%;
   padding: 30px;
@@ -96,19 +98,18 @@ body {
   gap: 20px;
 }
 
-.exp-card h4{
+.exp-card h4 {
   color: #7d73fc;
 }
 
-.exp-card ul{
+.exp-card ul {
   margin-top: 10px;
   list-style: none;
 }
 
-.exp-card ul li{
+.exp-card ul li {
   margin-bottom: 5px;
-  color: #f5f5ff;
-  
+  color: #f5f5ff;  
 }
 
 .social-icons ul {
@@ -127,6 +128,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
 .arrow {
   color: #c4c4c4;
   padding: 2px;
@@ -134,8 +136,8 @@ body {
   height: 21.3px;
   left: 9.15px;
   top: 9.35px;
-
 }
+
 .work h1 {
   color: #a2a3ae;
   font-size: 20px;
