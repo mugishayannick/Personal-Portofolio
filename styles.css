@@ -8,14 +8,14 @@
 
 body {
   background-color: #191765;
-  background-image: 
+  background-image:
     url("./images/Ellipse18.png"),
     url("./images/Ellipse19.png");
   background-repeat: no-repeat;
-  background-size: 
+  background-size:
     120px 230px,
     60px 150px;
-  background-position: 
+  background-position:
     left 0 top 50px,
     right 0 top 520px;
   width: 100vw;
