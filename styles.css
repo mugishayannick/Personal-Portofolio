@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
 
 * {
   margin: 0;
@@ -75,7 +76,7 @@ body {
 .main-intro h3 {
   font-family: sans-serif;
   font-weight: 500;
-  font-size: 40px;
+  font-size: 34px;
   line-height: 44px;
   color: #edecff;
   margin-bottom: 40px;
@@ -83,7 +84,7 @@ body {
 
 .main-intro p {
   height: max-content;
-  font-family: sans-serif;
+  font-family: 'Roboto' sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
@@ -145,4 +146,84 @@ body {
 .work h1 {
   color: #a2a3ae;
   font-size: 20px;
+}
+
+.work-section {
+  font-family: sans-serif;
+  font-weight: 500;
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); 
+}
+
+.head {
+  border-bottom: 1px solid #646369;
+}
+
+.head h1 {
+  width: 80%;
+  font-size: 40px;
+  line-height: 54px;
+  color: #7d73fc;
+  margin-bottom: 30px;
+}
+
+.box-1 {
+  margin-top: 50px;
+}
+
+.box-1 img {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.box-1 h1 {
+  font-family: 'Roboto'sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.box-1 p {
+  font-family: 'Inter' sans-serif;
+  font-weight: 400;
+  color: #dcdce8;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+
+.box-1 ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.box-1 ul li:nth-child(1), .box-1 ul li:nth-child(2), .box-1 ul li:nth-child(3) {
+  border-right: 1px solid #646369;
+  padding: 10px 20px;
+  font-family: 'Inter' sans-serif;
+  font-weight: 500;
+}
+
+.box-1 ul li:nth-child(4) {
+  padding: 10px 20px;
+  font-family: 'Inter' sans-serif;
+  font-weight: 500;
+}
+
+.box-1 button {
+  font-family: 'Inter' sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+  background: #7d73fc;
+  border-radius: 1px;
+  padding: 12px 12px;
+  border: 1px solid #7d73fc;
 }
