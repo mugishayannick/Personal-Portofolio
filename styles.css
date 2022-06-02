@@ -215,8 +215,10 @@ body {
   margin-bottom: 40px;
 }
 
-.box-1 ul li:nth-child(1), 
-.box-1 ul li:nth-child(2), 
+.box-1 ul li:nth-child(1)
+,
+.box-1 ul li:nth-child(2)
+,
 .box-1 ul li:nth-child(3) {
   border-right: 1px solid #646369;
   padding: 10px 20px;
