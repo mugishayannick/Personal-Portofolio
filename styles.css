@@ -11,14 +11,26 @@ body {
   background-color: #191765;
   background-image:
     url("./images/Ellipse18.png"),
-    url("./images/Ellipse19.png");
+    url("./images/Ellipse19.png"),
+    url("./images/Ellipse20@3x.png"),
+    url("./images/Ellipse21.png"),
+    url("./images/Ellipse22.png"),
+    url("./images/Ellipse23.png");
   background-repeat: no-repeat;
   background-size:
     120px 230px,
-    60px 150px;
+    60px 150px,
+    200px,
+    120px,
+    240px 190px,
+    140px 200px;
   background-position:
     left 0 top 50px,
-    right 0 top 470px;
+    right 0 top 470px,
+    left 0 top 1420px,
+    right 0 top 2220px,
+    left 0 top 3010px,
+    right 0 top 3760px;
   width: 100vw;
   height: 100vh;
 }
