@@ -151,12 +151,14 @@ body {
 
 .arrow {
   color: #c4c4c4;
-  padding: 2px;
+  padding: 4px;
   height: 21px;
 }
 
-.work h1 {
+.work h2 {
   color: #a2a3ae;
+  font-family: sans-serif;
+  font-weight: 500;
   font-size: 20px;
 }
 
@@ -172,7 +174,7 @@ body {
   border-bottom: 1px solid #646369;
 }
 
-.head h1 {
+.head h2 {
   width: 80%;
   font-size: 40px;
   line-height: 54px;
