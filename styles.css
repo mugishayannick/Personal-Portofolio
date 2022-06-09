@@ -252,7 +252,7 @@ body {
 }
 
 .contact-form h3 {
-  font-family: sans-serif;
+  font-family: 'Roboto' serif;
   font-weight: 500;
   font-size: 32px;
   line-height: 44px;
@@ -261,8 +261,8 @@ body {
 }
 
 .contact-form p {
-  width: 90%;
-  font-family: sans-serif;
+  width: 60%;
+  font-family: 'Roboto' serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -272,7 +272,7 @@ body {
 }
 
 form {
-  width: 340px;
+  width: 440px;
 }
 
 form div {
@@ -311,13 +311,14 @@ textarea {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.1s;
   margin-top: 15px;
   margin-bottom: 50px;
 }
 
 .form button:hover {
   color: #191765;
+  border-radius: 10px;
 }
 
 .down-form {
