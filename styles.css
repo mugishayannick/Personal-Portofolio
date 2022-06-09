@@ -252,7 +252,7 @@ body {
 }
 
 .contact-form h3 {
-  font-family: 'Roboto' serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 32px;
   line-height: 44px;
@@ -262,7 +262,7 @@ body {
 
 .contact-form p {
   width: 60%;
-  font-family: 'Roboto' serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
