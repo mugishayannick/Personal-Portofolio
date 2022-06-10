@@ -376,7 +376,7 @@ input[type=name] {
     gap: 30px;
   }
 
-  .nav-links ul li a svg{
+  .nav-links ul li a svg {
     fill: #fff;
     width: 25px;
     height: 25px;
@@ -452,12 +452,12 @@ input[type=name] {
     margin-bottom: 80px;
   }
 
-  .section{
+  .section {
     flex-direction: row;
   }
 
   .work__hide {
-    display:flex;
+    display: flex;
   }
 
   .box-1 {
@@ -473,7 +473,7 @@ input[type=name] {
   }
 
   .down {
-    display:flex;
+    display: flex;
     flex-direction: column;
   }
 
