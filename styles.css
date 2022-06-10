@@ -255,6 +255,13 @@ body {
   border-radius: 1px;
   padding: 12px 12px;
   border: 1px solid #7d73fc;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #fff;
+  color: #7d73fc;
 }
 
 .contact-form {
@@ -494,8 +501,8 @@ input[type=name] {
   }
 
   .form button:hover {
-    color: rgb(255, 255, 255);
-    border-radius: 5px;
+    background: #fff;
+    color: #7d73fc;
   }
 
   .social-icons {
