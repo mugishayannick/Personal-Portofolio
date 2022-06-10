@@ -159,7 +159,7 @@ body {
 
 .work__hide {
   display: none;
-} 
+}
 
 .arrow {
   color: #c4c4c4;
@@ -255,13 +255,6 @@ body {
   border-radius: 1px;
   padding: 12px 12px;
   border: 1px solid #7d73fc;
-}
-
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 70px;
 }
 
 .contact-form {
@@ -371,7 +364,6 @@ input[type=name] {
 
 
 @media only screen and (min-width: 800px) {
-
   .logo {
     font-size: 18px;
     line-height: 20px;
