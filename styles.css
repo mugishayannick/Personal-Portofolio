@@ -56,6 +56,10 @@ body {
   font-size: 20px;
 }
 
+.logo:hover {
+  transform: rotate(90deg) translateX(50px);
+}
+
 .fa-bars {
   color: #fff;
   font-size: 20px;
@@ -148,6 +152,12 @@ body {
   justify-content: space-between;
   margin-top: 20px;
   color: #fff;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.social-icons ul li:hover {
+  transform: rotate(360deg)scale(1.5);
 }
 
 .work {
@@ -201,6 +211,12 @@ body {
 .box-1 img {
   width: 100%;
   margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.box-1 img:hover {
+  transform: scale(0.99);
+  transform: rotate(2deg);
 }
 
 .box-1 h1 {
@@ -339,7 +355,7 @@ input[type=name] {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.3s;
   margin-top: 15px;
   margin-bottom: 50px;
 }
@@ -547,3 +563,4 @@ input[type=name] {
     margin-left: -130px;
   }
 }
+
