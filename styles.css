@@ -157,7 +157,7 @@ body {
 }
 
 .social-icons ul li:hover {
-  transform: rotate(360deg)scale(1.5);
+  transform: rotate(360deg) scale(1.5);
 }
 
 .work {
@@ -563,4 +563,3 @@ input[type=name] {
     margin-left: -130px;
   }
 }
-
