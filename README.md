@@ -23,7 +23,8 @@ To get a local copy up and running follow these simple example steps.
 
 ### Deployment
 
-
+View in [Github Pages](https://github.com/mugishayannick/Personal-Portofolio) or directly on [Github](https://mugishayannick.github.io/Personal-Portofolio/) 
+* [Your GitHub Pages URL and adding preview to your README.md]
 
 ## Author
 
