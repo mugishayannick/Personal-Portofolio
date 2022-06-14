@@ -267,17 +267,17 @@ body {
   font-size: 12px;
   line-height: 20px;
   color: #fff;
-  background: #7d73fc;
+  background: #6a61d7;
   border-radius: 1px;
   padding: 12px 12px;
-  border: 1px solid #7d73fc;
+  border: 1px solid #6a61d7;
   transition: 0.2s;
   cursor: pointer;
 }
 
 .button:hover {
   background: #fff;
-  color: #7d73fc;
+  color: #6a61d7;
 }
 
 .contact-form {
@@ -347,10 +347,10 @@ input[type=name] {
   font-size: 12px;
   line-height: 20px;
   color: #fff;
-  background: #7d73fc;
+  background: #6a61d7 ;
   border-radius: 1px;
   padding: 10px 30px;
-  border: 1px solid #7d73fc;
+  border: 1px solid #6a61d7 ;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -518,7 +518,7 @@ input[type=name] {
 
   .form button:hover {
     background: #fff;
-    color: #7d73fc;
+    color: #6a61d7;
   }
 
   .social-icons {
