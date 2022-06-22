@@ -77,8 +77,6 @@ body {
 .menu-item {
   display: flex;
   list-style-type: none;
-  text-decoration: none;
-  text-decoration: none;
   padding: 15px 10px;
 }
 
@@ -453,11 +451,6 @@ input[type=name] {
     list-style-type: none;
     width: 100%;
     gap: 30px;
-  }
-
-  .nav-links ul:active {
-    opacity: 0;
-    transform: translateY(8px) rotate(45deg);
   }
 
   .nav-links ul li a svg {
