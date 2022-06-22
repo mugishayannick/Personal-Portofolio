@@ -45,8 +45,55 @@ body {
   padding: 20px 30px;
 }
 
-.nav-links ul {
+.nav-links {
   display: none;
+}
+
+.email-icon {
+  display: none;
+}
+
+.nav-links.active {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  background-color: #191765;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.close-icon {
+  display: block;
+  color: #fff;
+  position: absolute;
+  right: 8%;
+  cursor: pointer;
+  top: 23px;
+}
+
+.menu-item {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+  text-decoration: none;
+  padding: 15px 10px;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav {
+  text-decoration: none;
+  margin-top: 70px;
+}
+
+.menu-item li {
+  margin: 90px;
 }
 
 .logo {
@@ -63,6 +110,7 @@ body {
 .fa-bars {
   color: #fff;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .main {
@@ -391,6 +439,14 @@ input[type=name] {
     line-height: 20px;
   }
 
+  .nav-links {
+    display: block;
+  }
+
+  .close-icon {
+    display: none;
+  }
+
   .nav-links ul {
     display: flex;
     align-items: center;
@@ -399,10 +455,19 @@ input[type=name] {
     gap: 30px;
   }
 
+  .nav-links ul:active {
+    opacity: 0;
+    transform: translateY(8px) rotate(45deg);
+  }
+
   .nav-links ul li a svg {
     fill: #fff;
     width: 25px;
     height: 25px;
+  }
+
+  .close-icon:active {
+    display: inline-block;
   }
 
   .nav-links ul li a {
@@ -415,8 +480,20 @@ input[type=name] {
     letter-spacing: 1.5px;
   }
 
+  .email-icon {
+    display: inline-block;
+  }
+
   .nav-menu-icon {
     display: none;
+  }
+
+  .nav-menu-icon.active {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
   }
 
   body {
