@@ -14,7 +14,7 @@ if (typeof window !== 'undefined') {
   });
 
   const menuItem = document.querySelectorAll('.menu-item');
-  menuItem.forEach(menu => {
+  menuItem.forEach((menu) => {
     menu.addEventListener('click', () => {
       navMenuIcon.classList.toggle('active');
       navLinks.classList.toggle('active');
