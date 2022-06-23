@@ -1,3 +1,4 @@
+if (typeof window !== 'undefined'){
 const navMenuIcon = document.querySelector('.nav-menu-icon');
 const navLinks = document.querySelector('.nav-links');
 
@@ -19,7 +20,7 @@ menuItem.forEach(menu => {
         navLinks.classList.toggle("active");
 }) 
 })
-
+}
 // const workSection = document.querySelector('#append');
 
 // const portofolio = [
