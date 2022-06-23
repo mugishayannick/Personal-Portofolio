@@ -74,14 +74,14 @@
             </div>
 
         </section>
-       <section class="section">
+       <div class="section">
         <article class="work work__hide">
             <h2>Work</h2>
             <span class="arrow"><i class="fa-solid fa-arrow-down-long"></i></span>
            
 
         </article>
-        <article class="social-icons">
+        <div class="social-icons">
             <ul>
                 <li><i class="fa-brands fa-github"></i></li>
                 <li><i class="fa-brands fa-linkedin-in"></i></li>
@@ -89,13 +89,13 @@
                 <li><i class="fa-brands fa-twitter"></i></li>
                 <li><i class="fa-solid fa-m"></i></li>
             </ul>
-        </article>
+        </div>
         <article class="work">
             <span class="arrow"><i class="fa-solid fa-arrow-down-long"></i></span>
             <h2>Work</h2>
 
         </article>
-       </section>
+       </div>
         <section id="append" class="work-section">
           <article class="top">
             <div class="head">
@@ -175,12 +175,12 @@
                 <div class="form-1">
                     <div>
                         <label for="text">
-                            <input type="text" placeholder="Yannick" required minlength="6" maxlength="30">
+                            <input id="text" type="text" placeholder="Yannick" required minlength="6" maxlength="30">
                         </label>
                     </div>
                     <div>
                         <label for="text">
-                            <input type="name" placeholder="Last name" required minlength="6" maxlength="30">
+                            <input type="text" placeholder="Last name" required minlength="6" maxlength="30">
                         </label>
                     </div>
                 </div>
@@ -192,12 +192,12 @@
                 </div>
                 <div>
                     <label for="textarea">
-                        <textarea name="textarea" cols="50" rows="8" placeholder="Enter text here" minlength="15" maxlength="500"></textarea>
+                        <textarea id="textarea" name="textarea" cols="50" rows="8" placeholder="Enter text here" minlength="15" maxlength="500"></textarea>
                     </label>
                     
                 </div>
                 <div class="down-form">
-                    <button>Send</button>
+                    <button type="submit">Send</button>
                    <div class="social-icons">
                     <div class="left">
                         <ul>
@@ -215,7 +215,7 @@
                    </div>
                 </div>
 
-                </div>
+                
             </form>
         </section>     
     </main>
