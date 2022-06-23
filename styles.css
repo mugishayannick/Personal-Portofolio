@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap");
 
 * {
   margin: 0;
@@ -45,8 +45,76 @@ body {
   padding: 20px 30px;
 }
 
-.nav-links ul {
+.nav-links {
   display: none;
+}
+
+.email-icon {
+  display: none;
+}
+
+.nav-links.active {
+  background-image:
+    url("./images/shapemobilemenu-2.png"),
+    url("./images/shape mobile menu-1.png"),
+    url("./images/Icon - Chevron - Right - Larger.png"),
+    url("./images/Icon - Chevron - Right - Larger.png"),
+    url("./images/Icon - Chevron - Right - Larger.png");
+  background-size:
+    150px 300px,
+    150px 300px,
+    20px 20px,
+    20px 20px,
+    20px 20px;
+  background-position:
+    left 0 top 90px,
+    right 0 top 350px,
+    right 13% top 111px,
+    right 13% top 174px,
+    right 13% top 235px;
+  background-repeat: no-repeat;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  background-color: #191765;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.close-icon {
+  display: block;
+  color: #fff;
+  position: absolute;
+  right: 7%;
+  cursor: pointer;
+  top: 15px;
+}
+
+.menu-item {
+  display: flex;
+  list-style-type: none;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav {
+  text-decoration: none;
+  margin-top: 90px;
+}
+
+.menu-item li {
+  margin: 90px;
 }
 
 .logo {
@@ -63,6 +131,7 @@ body {
 .fa-bars {
   color: #fff;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .main {
@@ -220,7 +289,7 @@ body {
 }
 
 .box-1 h1 {
-  font-family: 'Roboto'sans-serif;
+  font-family: sans-serif;
   font-weight: 500;
   font-size: 32px;
   line-height: 44px;
@@ -267,17 +336,17 @@ body {
   font-size: 12px;
   line-height: 20px;
   color: #fff;
-  background: #7d73fc;
+  background: #6a61d7;
   border-radius: 1px;
   padding: 12px 12px;
-  border: 1px solid #7d73fc;
+  border: 1px solid #6a61d7;
   transition: 0.2s;
   cursor: pointer;
 }
 
 .button:hover {
   background: #fff;
-  color: #7d73fc;
+  color: #6a61d7;
 }
 
 .contact-form {
@@ -347,10 +416,10 @@ input[type=name] {
   font-size: 12px;
   line-height: 20px;
   color: #fff;
-  background: #7d73fc;
+  background: #6a61d7;
   border-radius: 1px;
   padding: 10px 30px;
-  border: 1px solid #7d73fc;
+  border: 1px solid #6a61d7;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -391,6 +460,14 @@ input[type=name] {
     line-height: 20px;
   }
 
+  .nav-links {
+    display: block;
+  }
+
+  .close-icon {
+    display: none;
+  }
+
   .nav-links ul {
     display: flex;
     align-items: center;
@@ -405,6 +482,10 @@ input[type=name] {
     height: 25px;
   }
 
+  .close-icon:active {
+    display: inline-block;
+  }
+
   .nav-links ul li a {
     text-decoration: none;
     color: #fff;
@@ -415,8 +496,20 @@ input[type=name] {
     letter-spacing: 1.5px;
   }
 
+  .email-icon {
+    display: inline-block;
+  }
+
   .nav-menu-icon {
     display: none;
+  }
+
+  .nav-menu-icon.active {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
   }
 
   body {
@@ -518,7 +611,7 @@ input[type=name] {
 
   .form button:hover {
     background: #fff;
-    color: #7d73fc;
+    color: #6a61d7;
   }
 
   .social-icons {
