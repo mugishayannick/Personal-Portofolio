@@ -390,7 +390,7 @@ label {
   display: block;
 }
 
-input+label {
+input + label {
   display: inline-block;
   margin-right: 10px;
 }
