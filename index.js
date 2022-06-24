@@ -23,19 +23,18 @@ if (typeof window !== 'undefined') {
 }
 
 //add data to localstorage
-    var messageObject = {
-      visitorname: name,
-      visitorlastname: text,
-      visitoremail: email,
-      message: text,
+  var messageObject = {
+    visitorname: name,
+    visitorlastname: text,
+    visitoremail: email,
+    message: text,
 };
 if (localStorage.getItem('messages')) {
-    // append
-    var mymessages = JSON.parse(localStorage.getItem('messages')) || [];
-    mymessages.push(messageObject);
-    localStorage.setItem('messages', JSON.stringify(mymessages));
+  // append
+  const mymessages = JSON.parse(localStorage.getItem('messages')) || [];
+  mymessages.push(messageObject);
+  localStorage.setItem('messages', JSON.stringify(mymessages));
 } else {
-    // set localstorage key and value
-    localStorage.setItem('messages', JSON.stringify(messageObject));
+  // set localstorage key and value
+  localStorage.setItem('messages', JSON.stringify(messageObject));
 }
-
