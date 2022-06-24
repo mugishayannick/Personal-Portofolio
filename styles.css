@@ -462,8 +462,8 @@ input[type=name] {
   position: fixed;
   top: 0;
   left: 0;
-  background: rgba(255, 255, 255, 0.16);
-  backdrop-filter: blur(3rem);
+  background: #191765;
+  backdrop-filter: opacity(80%);
   display: none;
   z-index: 20;
 }
@@ -488,6 +488,7 @@ input[type=name] {
 .fa-xmark {
   font-size: 23px;
   color: #fff;
+  cursor: pointer;
 }
 
 .recent_work_detail_close_btn {
