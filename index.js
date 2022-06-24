@@ -28,15 +28,14 @@ if (typeof window !== 'undefined') {
       visitorlastname: text,
       visitoremail: email,
       message: text,
-    };
-    console.log(messageObject);
-    if (localStorage.getItem('messages')) {
-      //append
-      var mymessages = JSON.parse(localStorage.getItem('messages')) || [];
-      mymessages.push(messageObject);
-      localStorage.setItem('messages', JSON.stringify(mymessages));
-    } else {
-      //set localstorage key and value
-      localStorage.setItem('messages', JSON.stringify(messageObject));
-    }
-    console.log(JSON.parse(localStorage.getItem('messages')));
+};
+if (localStorage.getItem('messages')) {
+    // append
+    var mymessages = JSON.parse(localStorage.getItem('messages')) || [];
+    mymessages.push(messageObject);
+    localStorage.setItem('messages', JSON.stringify(mymessages));
+} else {
+    // set localstorage key and value
+    localStorage.setItem('messages', JSON.stringify(messageObject));
+}
+
