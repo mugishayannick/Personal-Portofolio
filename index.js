@@ -60,13 +60,13 @@ const textarea = document.querySelector('#textarea').value;
     message: textarea,
   };
   if (localStorage.getItem('messages')) {
-  // append
-    var mymessages = JSON.parse(localStorage.getItem('messages')) || [];
-    mymessages.push(messageObject);
-    localStorage.setItem('messages', JSON.stringify(mymessages));
-  } else   {
+      // append
+      const mymessages = JSON.parse(localStorage.getItem('messages')) || [];
+      mymessages.push(messageObject);
+      localStorage.setItem('messages', JSON.stringify(mymessages));
+    } else {
     // set localstorage key and value
-    localStorage.setItem('messages', JSON.stringify(messageObject));
+      localStorage.setItem('messages', JSON.stringify(messageObject));
+    }
   }
-  }
-  });
+});
