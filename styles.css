@@ -454,7 +454,6 @@ input[type=name] {
   align-items: center;
 }
 
-
 /* Recent Work Detail Container */
 
 .recent_work_detail_container {
@@ -465,16 +464,14 @@ input[type=name] {
   left: 0;
   background: rgba(255, 255, 255, 0.16);
   backdrop-filter: blur(3rem);
-  display: none;  
+  display: none;
   z-index: 20;
 }
 
-.recent_work_box_visible{
+.recent_work_box_visible {
   display: grid;
   place-items: center;
 }
-
-
 
 .recent_work_detail_box {
   width: 90%;
@@ -484,16 +481,16 @@ input[type=name] {
   overflow-y: scroll;
 }
 
-.recent_work_detail_content{
+.recent_work_detail_content {
   color: #fff;
 }
 
-.fa-xmark{
+.fa-xmark {
   font-size: 23px;
   color: #fff;
 }
 
-.recent_work_detail_close_btn{
+.recent_work_detail_close_btn {
   position: absolute;
   right: 50px;
   top: 40px;
