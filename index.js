@@ -26,7 +26,7 @@ const portofolio = [
   {
     heading: 'Multi-Post Stories',
     highlight:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     image: 'images/ImgPlaceholder.png',
     skill1: 'css',
     skill2: 'Html',
@@ -93,7 +93,7 @@ const projectsDataDetails = [
   {
     title: 'Multi-Post Stories',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s when an unknown printer took a standard dummy text.",
     imgSrc: './images/ImgPlaceholder.png',
     skills: {
       skill_1: 'css',
@@ -105,7 +105,7 @@ const projectsDataDetails = [
   {
     title: 'Multi-Post Stories',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s when an unknown printer took a standard dummy text.",
     imgSrc: './images/ImgPlaceholder.png',
     skills: {
       skill_1: 'css',
@@ -117,7 +117,7 @@ const projectsDataDetails = [
   {
     title: 'Multi-Post Stories',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s when an unknown printer took a standard dummy text.",
     imgSrc: './images/ImgPlaceholder.png',
     skills: {
       skill_1: 'css',
@@ -129,7 +129,7 @@ const projectsDataDetails = [
   {
     title: 'Multi-Post Stories',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s when an unknown printer took a standard dummy text.",
     imgSrc: './images/ImgPlaceholder.png',
     skills: {
       skill_1: 'css',
