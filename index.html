@@ -10,11 +10,11 @@
     <!-- favicon -->
     <link rel="stylesheet" href="images/favicon-1.ico" type="image/x-icon" />
     <!-- font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles.css">
+    <script defer src="./index.js"></script>
 
 </head>
 
@@ -23,25 +23,26 @@
     <header class="header">
         <a href="" class="logo">Yannick Mugisha</a>
         <div class="nav-links">
-           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Home</a></li>
+           <ul class="nav">
+            <li class="close-icon"><i class="fa-solid fa-x"></i></li>
+            <li class="menu-item"><a href="#portofolio">Portfolio</a></li>
+            <li class="menu-item"><a href="#About">About</a></li>
+            <li class="menu-item"><a href="#Contact">Contact</a></li>
+            <li class="email-icon"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M0 128C0 92.65 28.65 64 64 64H448C483.3 64 512 92.65 512 128V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V128zM48 128V150.1L220.5 291.7C241.1 308.7 270.9 308.7 291.5 291.7L464 150.1V127.1C464 119.2 456.8 111.1 448 111.1H64C55.16 111.1 48 119.2 48 127.1L48 128zM48 212.2V384C48 392.8 55.16 400 64 400H448C456.8 400 464 392.8 464 384V212.2L322 328.8C283.6 360.3 228.4 360.3 189.1 328.8L48 212.2z"/></svg></a></li>
            </ul>
         </div>
         <span class="nav-menu-icon"><i class="fa-solid fa-bars"></i></span>
     </header>
     <main class="main">
-        <div class="main-intro">
+        <section class="main-intro">
             <h1>Yannick Mugisha</h1>
             <h3>Software Developer</h3>
             <p>I can help you build a product , feature or website Look through some of my work and experience! If you
                 like what you see and have a project you need coded,
                 don’t hestiate to contact me.</p>
 
-        </div>
-        <div class="section-experience">
+        </section>
+        <section class="section-experience">
             <div class="exp-card">
                 <h4>Language</h4>
                 <ul>
@@ -72,22 +73,8 @@
                 </ul>
             </div>
 
-        </div>
-        <div class="social-icons">
-            <ul>
-                <li><i class="fa-brands fa-github"></i></li>
-                <li><i class="fa-brands fa-linkedin-in"></i></li>
-                <li><i class="fa-brands fa-github"></i></li>
-                <li><i class="fa-brands fa-angellist"></i></li>
-                <li><i class="fa-solid fa-m"></i></li>
-            </ul>
-        </div>
-        <div class="work">
-            <span class="arrow"><i class="fa-solid fa-arrow-down-long"></i></span>
-            <h1>Work</h1>
-
-        </div>
+        </section>   
     </main>
-
+ 
 </body>
 </html>
