@@ -16,8 +16,7 @@ closeIcon.addEventListener('click', () => {
 const menuItem = document.querySelectorAll('.menu-item');
 menuItem.forEach((menu) => {
   menu.addEventListener('click', () => {
-  navMenuIcon.classList.toggle('active');
-  navLinks.classList.toggle('active');
-  });
-  
+    navMenuIcon.classList.toggle('active');
+    navLinks.classList.toggle('active');
+    });
 });
