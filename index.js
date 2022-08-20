@@ -18,5 +18,5 @@ menuItem.forEach((menu) => {
   menu.addEventListener('click', () => {
     navMenuIcon.classList.toggle('active');
     navLinks.classList.toggle('active');
-    });
+  });
 });
