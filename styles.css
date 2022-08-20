@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap");
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -453,23 +453,23 @@ input[type=name] {
   align-items: center;
 }
 
-.work-section {
+#work-section {
   font-family: sans-serif;
   font-weight: 500;
   margin-top: 70px;
 }
 
-.box-1 {
+#box-1 {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   margin-top: 40px;
 }
 
-.head {
+#head {
   border-bottom: 1px solid #646369;
 }
 
-.head h2 {
+#head h2 {
   width: 50%;
   font-size: 40px;
   line-height: 54px;
@@ -477,18 +477,18 @@ input[type=name] {
   margin-bottom: 30px;
 }
 
-.box-1 img {
+#box-1 img {
   width: 100%;
   margin-bottom: 40px;
   cursor: pointer;
 }
 
-.box-1 img:hover {
+#box-1 img:hover {
   transform: scale(0.99);
   transform: rotate(2deg);
 }
 
-.box-1 h1 {
+#box-1 h1 {
   font-family: sans-serif;
   font-weight: 500;
   font-size: 32px;
@@ -497,7 +497,7 @@ input[type=name] {
   margin-bottom: 40px;
 }
 
-.box-1 p {
+#box-1 p {
   font-family: sans-serif;
   font-weight: 400;
   color: #dcdce8;
@@ -506,7 +506,7 @@ input[type=name] {
   margin-bottom: 40px;
 }
 
-.box-1 ul {
+#box-1 ul {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
@@ -514,22 +514,22 @@ input[type=name] {
   margin-bottom: 40px;
 }
 
-.box-2 ul li:nth-child(2),
-.box-2 ul li:nth-child(1),
-.box-2 ul li:nth-child(3) {
+#box-2 ul li:nth-child(2),
+#box-2 ul li:nth-child(1),
+#box-2 ul li:nth-child(3) {
   border-right: 1px solid #646369;
   padding: 10px 20px;
   font-family: sans-serif;
   font-weight: 500;
 }
 
-.box-2 ul li:nth-child(4) {
+#box-2 ul li:nth-child(4) {
   padding: 10px 20px;
   font-family: sans-serif;
   font-weight: 500;
 }
 
-.button {
+#button {
   width: 20%;
   font-family: sans-serif;
   font-weight: 500;
@@ -544,19 +544,19 @@ input[type=name] {
   cursor: pointer;
 }
 
-.button:hover {
+#button:hover {
   background: #fff;
   color: #6a61d7;
 }
 
-.contact-form {
+#contact-form {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 70px;
 }
 
-.contact-form h3 {
+#contact-form h3 {
   font-family: sans-serif;
   font-weight: 500;
   font-size: 32px;
@@ -565,7 +565,7 @@ input[type=name] {
   margin-bottom: 20px;
 }
 
-.contact-form p {
+#contact-form p {
   width: 90%;
   font-family: sans-serif;
   font-weight: 400;
@@ -576,28 +576,28 @@ input[type=name] {
   margin-bottom: 40px;
 }
 
-form {
+.form {
   width: 345px;
 }
 
-form div {
+.form div {
   padding: 10px;
   width: 365px;
   margin-left: -10px;
 }
 
-label {
+.label {
   display: block;
 }
 
-input + label {
+.input + label {
   display: inline-block;
   margin-right: 10px;
 }
 
-input[type=text],
-input[type=email],
-textarea {
+.input[type=text],
+.input[type=email],
+.textarea {
   border: 1px solid #999;
   padding: 15px;
   width: 100%;
@@ -605,7 +605,7 @@ textarea {
   margin-right: -2px;
 }
 
-input[type=name] {
+.input[type=name] {
   width: 100%;
   padding: 15px;
 }
