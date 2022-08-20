@@ -345,7 +345,7 @@ body {
   cursor: pointer;
 }
 
-.button:hover {
+button:hover {
   background: #fff;
   color: #6a61d7;
 }
@@ -546,21 +546,21 @@ input[type=name] {
 }
 
 .button:hover {
-  background: #7D73FC;
+  background: #7d73fc;
 }
 
 .button:enabled {
-  background: #7D73FC;
+  background: #7d73fc;
 }
 
 .button:disabled {
-  background: #2A2B33;;
+  background: #2a2b33;;
 }
 
 .button:active {
   box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
   transform: translateY(4px);
-  background: #5E42D7;
+  background: #5e42d7;
 }
 
 #contact-form {
