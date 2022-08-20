@@ -610,7 +610,7 @@ input[type=name] {
   padding: 15px;
 }
 
-form button {
+#form button {
   font-family: sans-serif;
   font-weight: 500;
   font-size: 12px;
@@ -629,17 +629,17 @@ form button {
   margin-bottom: 50px;
 }
 
-form button:hover {
+#form button:hover {
   color: #191765;
 }
 
-down-form {
+#down-form {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-down-form h4 {
+#down-form h4 {
   font-family: sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -648,7 +648,7 @@ down-form h4 {
   color: #ebebff;
 }
 
-social-icons {
+#social-icons {
   display: flex;
   flex-direction: column;
   align-items: center;
