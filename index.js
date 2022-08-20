@@ -1,4 +1,4 @@
-if (typeof window !== 'undefined') {
+
     const navMenuIcon = document.querySelector('.nav-menu-icon');
     const navLinks = document.querySelector('.nav-links');
   
@@ -20,4 +20,3 @@ if (typeof window !== 'undefined') {
         navLinks.classList.toggle('active');
       });
     });
-  }
