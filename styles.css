@@ -219,7 +219,6 @@ body {
   display: flex;
   list-style-type: none;
   justify-content: space-between;
-  margin-top: 20px;
   color: #fff;
   transition: all 0.5s;
   cursor: pointer;
@@ -554,7 +553,7 @@ input[type=name] {
 }
 
 .button:disabled {
-  background: #2a2b33;;
+  background: #2a2b33;
 }
 
 .button:active {
